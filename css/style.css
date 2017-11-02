@@ -25,6 +25,20 @@ body{
     font-family:'Cagliostro';
     src:url(../fonts/Cagliostro/Cagliostro-Regular.ttf) format('truetype');
 }
+@font-face{
+    font-family:'hazer';
+    src:url(../fonts/alt-hazer/alt-hazer.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'Atomic';
+    src:url(AtomicAge-Regular.ttf) format('truetype');
+}
+.font_1{
+    font-family: 'Atomic';
+}
+.hazer{
+    font-family: 'hazer';
+}
 /*--nav--set--*/
 #title{
         direction: left;
@@ -198,7 +212,8 @@ p.hide-text{
 .features-block{
 	padding:3em 0;
 	text-align:center;
-	background:#FFE103;
+	background:url(../images/dark.jpg);
+    background-size: cover;
 }
 .features-block h3{
 	font-family: 'BenchNine';
@@ -227,13 +242,13 @@ p.lead{
 img.img-wid{
     width:100%; 
 }
-.music {
+. {
     padding: 3em 0;
     text-align: center;
     background-color: #020202;
 }
 .music h3{
-	font-family: 'BenchNine';
+	font-family: 'Atomic';
 	font-weight: 700;
 	font-size: 40px;
 	text-transform: uppercase;
@@ -974,3 +989,4 @@ a.re {
 a.re:hover{
 	background:#FF0095;
 }
+
